@@ -1,7 +1,8 @@
 body {
   -webkit-font-smoothing: antialiased;
   line-height: 1.5em;
-  background-color: #6746D7; }
+  color: #CCCCCC;
+  background-color: #4726B7; }
 
 header.banner {
   padding: 1em; }
@@ -12,6 +13,7 @@ header.banner {
 
 section.about {
   padding: 1em;
+  color: black;
   background-color: white;
   display: -webkit-box;
   display: -moz-box;
