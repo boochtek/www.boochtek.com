@@ -1,10 +1,39 @@
 @import "bourbon/bourbon";
 
 
+body {
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.5em;
+  background-color: #6746D7;
+}
+
+header.banner {
+  padding: 1em;
+
+  h1 {
+    font-size: 2em;
+  }
+
+  h2.tagline {
+    font-size: 1em;
+  }
+}
+
 section.about {
+  padding: 1em;
+  background-color: white;
   @include box(horizontal, center, stretch);
 
   section {
     @include box-flex(1);
+    margin: 2em;
+
+    h1 {
+      font-size: 1.4em;
+    }
   }
+}
+
+footer {
+  padding: 0 1em;
 }
