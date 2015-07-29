@@ -14,30 +14,35 @@ header.banner {
 section.about {
   padding: 1em;
   color: black;
-  background-color: white;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: box;
-  -webkit-box-orient: horizontal;
-  -moz-box-orient: horizontal;
-  box-orient: horizontal;
-  -webkit-box-pack: center;
-  -moz-box-pack: center;
-  box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-box-align: stretch;
-  -moz-box-align: stretch;
-  box-align: stretch;
-  -ms-flex-align: stretch; }
+  background-color: white; }
   section.about section {
-    -webkit-box-flex: 1;
-    -moz-box-flex: 1;
-    box-flex: 1;
-    -ms-flex: 1;
     margin: 2em; }
     section.about section h1 {
       font-size: 1.4em; }
 
+@media (min-width: 900px) {
+  section.about {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: box;
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    box-orient: horizontal;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-box-align: stretch;
+    -moz-box-align: stretch;
+    box-align: stretch;
+    -ms-flex-align: stretch; }
+    section.about section {
+      -webkit-box-flex: 1;
+      -moz-box-flex: 1;
+      box-flex: 1;
+      -ms-flex: 1; } }
 footer {
   padding: 0 1em; }
+
+/*# sourceMappingURL=main.css.map */

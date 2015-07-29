@@ -24,10 +24,8 @@ section.about {
   padding: 1em;
   color: black;
   background-color: white;
-  @include box(horizontal, center, stretch);
 
   section {
-    @include box-flex(1);
     margin: 2em;
 
     h1 {
@@ -35,6 +33,16 @@ section.about {
     }
   }
 }
+
+@media(min-width: 900px) {
+  section.about {
+    @include box(horizontal, center, stretch);
+    section {
+      @include box-flex(1);
+    }
+  }
+}
+
 
 footer {
   padding: 0 1em;
