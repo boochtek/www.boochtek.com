@@ -14,6 +14,12 @@ header.banner {
   padding: 1em;
   text-align: center;
 
+  .logo {
+    width: 100px;
+    position: absolute;
+    top: 40px;
+    left: 20px;
+  }
   h1 {
     font-size: 3.5em;
     font-weight: normal;

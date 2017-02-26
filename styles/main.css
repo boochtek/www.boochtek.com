@@ -9,6 +9,11 @@ header.banner {
   color: #DDDDDD;
   padding: 1em;
   text-align: center; }
+  header.banner .logo {
+    width: 100px;
+    position: absolute;
+    top: 40px;
+    left: 20px; }
   header.banner h1 {
     font-size: 3.5em;
     font-weight: normal; }
@@ -47,5 +52,3 @@ section.about {
       -ms-flex: 1; } }
 footer {
   padding: 0 1em; }
-
-/*# sourceMappingURL=main.css.map */
