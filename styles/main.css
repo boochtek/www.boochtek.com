@@ -43,15 +43,15 @@ header.banner {
           color: #EAD5A4;
           text-decoration: none; }
 
-section.about {
+main {
   padding: 1em; }
-  section.about section {
+  main > section {
     margin: 2em; }
-    section.about section h1 {
+    main > section h1 {
       font-size: 1.4em; }
 
 @media (min-width: 900px) {
-  section.about {
+  main {
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
@@ -67,7 +67,7 @@ section.about {
     -moz-box-align: stretch;
     box-align: stretch;
     -ms-flex-align: stretch; }
-    section.about section {
+    main section {
       -webkit-box-flex: 1;
       -moz-box-flex: 1;
       box-flex: 1;

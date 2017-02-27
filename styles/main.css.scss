@@ -61,10 +61,10 @@ header.banner {
   }
 }
 
-section.about {
+main {
   padding: 1em;
 
-  section {
+  & > section {
     margin: 2em;
 
     h1 {
@@ -74,7 +74,7 @@ section.about {
 }
 
 @media(min-width: 900px) {
-  section.about {
+  main {
     @include box(horizontal, center, stretch);
     section {
       @include box-flex(1);
