@@ -29,6 +29,36 @@ header.banner {
     font-size: 1.5em;
     font-weight: lighter;
   }
+
+  nav {
+    background-color: #12082B;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    border-bottom: 0;
+    margin: 0;
+    padding: 5px;
+
+    ul {
+      list-style-type: none;
+      float: right;
+      padding: 0;
+      padding-right: 20px;
+      margin: 0;
+
+      li {
+        display: inline-block;
+        padding: 0 5px;
+        font-weight: bold;
+        font-size: 1.16em;
+
+        a {
+          color: #EAD5A4;
+          text-decoration: none;
+        }
+      }
+    }
+  }
 }
 
 section.about {
