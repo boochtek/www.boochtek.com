@@ -74,5 +74,8 @@ main {
       -moz-box-flex: 1;
       box-flex: 1;
       -ms-flex: 1; } }
+main section.faq, main section.contact {
+  padding: 0 30% 0 20%; }
+
 footer {
   padding: 0 1em; }
