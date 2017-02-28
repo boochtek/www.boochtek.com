@@ -20,9 +20,15 @@ header.banner {
     top: 40px;
     left: 20px;
   }
+
   h1 {
     font-size: 3.5em;
     font-weight: normal;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
   }
 
   h2.tagline {
@@ -54,7 +60,6 @@ header.banner {
 
         a {
           color: #EAD5A4;
-          text-decoration: none;
         }
       }
     }

@@ -17,6 +17,9 @@ header.banner {
   header.banner h1 {
     font-size: 3.5em;
     font-weight: normal; }
+  header.banner a {
+    text-decoration: none;
+    color: inherit; }
   header.banner h2.tagline {
     font-size: 1.5em;
     font-weight: lighter; }
@@ -40,8 +43,7 @@ header.banner {
         font-weight: bold;
         font-size: 1.16em; }
         header.banner nav ul li a {
-          color: #EAD5A4;
-          text-decoration: none; }
+          color: #EAD5A4; }
 
 main {
   padding: 1em; }
